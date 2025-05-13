@@ -106,6 +106,8 @@ const SimliElevenlabs: React.FC<SimliElevenlabsProps> = ({
       conversation.startSession({
         agentId: agentId,
         signedUrl: res.signed_url,
+        
+        
       });
     });
   };
